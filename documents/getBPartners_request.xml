@@ -1,0 +1,23 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:_0="http://idempiere.org/ADInterface/1_0">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <_0:queryData>
+            <_0:ModelCRUDRequest>
+                <_0:ModelCRUD>
+                    <_0:serviceType>getBPartners</_0:serviceType>
+                    <_0:TableName>C_BPartner</_0:TableName>
+                </_0:ModelCRUD>
+                <_0:ADLoginRequest>
+                    <_0:user>SuperUser</_0:user>
+                    <_0:pass>System</_0:pass>
+                    <_0:lang>en_US</_0:lang>
+                    <_0:ClientID>11</_0:ClientID>
+                    <_0:RoleID>102</_0:RoleID>
+                    <_0:OrgID>11</_0:OrgID>
+                    <_0:WarehouseID>103</_0:WarehouseID>
+                    <_0:stage>0</_0:stage>
+                </_0:ADLoginRequest>
+            </_0:ModelCRUDRequest>
+        </_0:queryData>
+    </soapenv:Body>
+</soapenv:Envelope>
